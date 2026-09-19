@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 30px;
+    background-color: #eeeeee;
+}
+.dice-container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    gap: 50px;
+    justify-content: center;
+}
+.dice{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 3px 10px  #cccccc;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}    
+/* Left positions */
+.top-left {
+    top: 25px;
+    left: 25px;
+}
+.middle-left{
+    top: 85px;
+    left: 25px;
+}
+.bottom-left {
+    bottom: 25px;
+    left: 25px;
+}
+/* Right position */
+.top-right{
+    top: 25px;
+    right: 25px;
+}
+.middle-right{
+    top: 85px;
+    right: 25px;
+}
+.bottom-right {
+    bottom: 25px;
+    right: 25px;
+}
+/* Center position */
+.center {
+    top: 85px;
+    left: 85px;
+}
